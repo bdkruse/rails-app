@@ -50,6 +50,7 @@ group :development, :test do
   # debugging with pry
   gem 'pry-byebug'
   gem 'pry-rails'
+  gem 'rubocop', require: false
 end
 
 group :development do

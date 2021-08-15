@@ -1,4 +1,4 @@
 class Customer < ApplicationRecord
-  has_many: :customers_users
-  has_many: :users, through: :customers_users
-end 
+  has_many :customer_records
+  has_many :users, through: :customer_records
+end
